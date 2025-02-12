@@ -143,67 +143,6 @@
         <mxCell id="20" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="1" source="10" target="18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HXcRfnbp6HLgDLk9Nx6u-41" value="数据层" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1334" y="2197" width="216" height="253" as="geometry" />
-        </mxCell>
-        <mxCell id="HXcRfnbp6HLgDLk9Nx6u-42" value="模型数据库 &#xa; (MySQL)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="HXcRfnbp6HLgDLk9Nx6u-41">
-          <mxGeometry x="46" y="43" width="141" height="67" as="geometry" />
-        </mxCell>
-        <mxCell id="HXcRfnbp6HLgDLk9Nx6u-43" value="模型仓库 &#xa; (GIT)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="HXcRfnbp6HLgDLk9Nx6u-41">
-          <mxGeometry x="54" y="160" width="125" height="67" as="geometry" />
-        </mxCell>
-        <mxCell id="HXcRfnbp6HLgDLk9Nx6u-44" value="逻辑层" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="1731" width="265" height="416" as="geometry" />
-        </mxCell>
-        <mxCell id="HXcRfnbp6HLgDLk9Nx6u-45" value="流程执行引擎" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="HXcRfnbp6HLgDLk9Nx6u-44">
-          <mxGeometry x="62" y="43" width="158" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="HXcRfnbp6HLgDLk9Nx6u-46" value="模型数据存储服务" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="HXcRfnbp6HLgDLk9Nx6u-44">
-          <mxGeometry x="46" y="142" width="190" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="HXcRfnbp6HLgDLk9Nx6u-47" value="用户鉴权服务" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="HXcRfnbp6HLgDLk9Nx6u-44">
-          <mxGeometry x="62" y="241" width="157" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="HXcRfnbp6HLgDLk9Nx6u-48" value="模型存储服务" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="HXcRfnbp6HLgDLk9Nx6u-44">
-          <mxGeometry x="62" y="340" width="158" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="HXcRfnbp6HLgDLk9Nx6u-70" value="通讯层" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1277" y="1076" width="331" height="119" as="geometry" />
-        </mxCell>
-        <mxCell id="HXcRfnbp6HLgDLk9Nx6u-71" value="HTTP/HTTPS/WebSocket..." style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="HXcRfnbp6HLgDLk9Nx6u-70">
-          <mxGeometry x="46" y="43" width="256" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="HXcRfnbp6HLgDLk9Nx6u-72" value="展现层" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1274" y="720" width="336" height="306" as="geometry" />
-        </mxCell>
-        <mxCell id="HXcRfnbp6HLgDLk9Nx6u-73" value="项目管理人员、设计主管...... &#xa; Web &#xa; (HTML, HTML5, VUE...)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="HXcRfnbp6HLgDLk9Nx6u-72">
-          <mxGeometry x="46" y="43" width="261" height="102" as="geometry" />
-        </mxCell>
-        <mxCell id="HXcRfnbp6HLgDLk9Nx6u-74" value="系统设计与仿真用户 &#xa; APP &#xa; (WRP, ArtStudio...)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="HXcRfnbp6HLgDLk9Nx6u-72">
-          <mxGeometry x="74" y="195" width="204" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="HXcRfnbp6HLgDLk9Nx6u-75" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="HXcRfnbp6HLgDLk9Nx6u-72" target="HXcRfnbp6HLgDLk9Nx6u-70">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HXcRfnbp6HLgDLk9Nx6u-76" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="HXcRfnbp6HLgDLk9Nx6u-70">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-            <mxPoint x="1442" y="1245" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HXcRfnbp6HLgDLk9Nx6u-77" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" target="HXcRfnbp6HLgDLk9Nx6u-44">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-            <mxPoint x="1442" y="1681" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HXcRfnbp6HLgDLk9Nx6u-78" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="HXcRfnbp6HLgDLk9Nx6u-44" target="HXcRfnbp6HLgDLk9Nx6u-41">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
