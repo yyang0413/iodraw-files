@@ -43,7 +43,7 @@
         <mxCell id="75" value="Project examination" style="align=left;strokeColor=#DEEDFF" parent="1" vertex="1">
           <mxGeometry x="126.50000000000027" y="419.9999999999998" width="319.9999999999997" height="20.000000000000014" as="geometry" />
         </mxCell>
-        <mxCell id="76" value="day" style="strokeColor=#DEEDFF" parent="1" vertex="1">
+        <mxCell id="76" value="1 day" style="strokeColor=#DEEDFF" parent="1" vertex="1">
           <mxGeometry x="446.500000000002" y="419.9999999999997" width="80.00000000000028" height="20" as="geometry" />
         </mxCell>
         <mxCell id="77" value="16.04.12" style="strokeColor=#DEEDFF" parent="1" vertex="1">
@@ -731,7 +731,7 @@
           <mxGeometry x="706.500000000002" y="429.99999999999966" width="10.000000000000341" height="9.99999999999983" as="geometry" />
         </mxCell>
         <mxCell id="244" value="" style="shape=mxgraph.flowchart.process;fillColor=#AE4132;strokeColor=none;strokeWidth=2;opacity=50" parent="1" vertex="1">
-          <mxGeometry x="686.5000000000032" y="419.9999999999997" width="19.999999999998863" height="19.99999999999983" as="geometry" />
+          <mxGeometry x="686.5" y="420" width="33.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="245" value="" style="shape=mxgraph.flowchart.process;fillColor=#AE4132;strokeColor=none;strokeWidth=2;opacity=50" parent="1" vertex="1">
           <mxGeometry x="706.5000000000018" y="440.00000000000057" width="40.00000000000023" height="19.99999999999983" as="geometry" />
