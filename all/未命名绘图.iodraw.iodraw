@@ -323,6 +323,28 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="cjgl-FhRbhYdB4I3oZJ8-75" value="战斗机" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2820" width="243" height="435" as="geometry" />
+        </mxCell>
+        <mxCell id="cjgl-FhRbhYdB4I3oZJ8-76" value="从雷达获取目标" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="cjgl-FhRbhYdB4I3oZJ8-75">
+          <mxGeometry x="43" y="46" width="173" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="cjgl-FhRbhYdB4I3oZJ8-77" value="目标锁定" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="cjgl-FhRbhYdB4I3oZJ8-75">
+          <mxGeometry x="73" y="169" width="113" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="cjgl-FhRbhYdB4I3oZJ8-78" value="开火" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="cjgl-FhRbhYdB4I3oZJ8-75">
+          <mxGeometry x="83" y="357" width="92" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="cjgl-FhRbhYdB4I3oZJ8-79" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="cjgl-FhRbhYdB4I3oZJ8-75" source="cjgl-FhRbhYdB4I3oZJ8-76" target="cjgl-FhRbhYdB4I3oZJ8-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cjgl-FhRbhYdB4I3oZJ8-80" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="cjgl-FhRbhYdB4I3oZJ8-75" source="cjgl-FhRbhYdB4I3oZJ8-77" target="cjgl-FhRbhYdB4I3oZJ8-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
