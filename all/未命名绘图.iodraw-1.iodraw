@@ -43,7 +43,7 @@
         <mxCell id="75" value="Project examination" style="align=left;strokeColor=#DEEDFF" parent="1" vertex="1">
           <mxGeometry x="126.50000000000027" y="419.9999999999998" width="319.9999999999997" height="20.000000000000014" as="geometry" />
         </mxCell>
-        <mxCell id="76" value="1 day" style="strokeColor=#DEEDFF" parent="1" vertex="1">
+        <mxCell id="76" value="day" style="strokeColor=#DEEDFF" parent="1" vertex="1">
           <mxGeometry x="446.500000000002" y="419.9999999999997" width="80.00000000000028" height="20" as="geometry" />
         </mxCell>
         <mxCell id="77" value="16.04.12" style="strokeColor=#DEEDFF" parent="1" vertex="1">
