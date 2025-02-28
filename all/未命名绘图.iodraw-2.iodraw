@@ -1,0 +1,142 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.0 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="1W3ipn5N18rgQ6k4t2Y8">
+    <mxGraphModel dx="954" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-1" value="下位机(Linux)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="247" y="338" width="658" height="296" as="geometry" />
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-2" value="上位机(Windows)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="247" y="20" width="658" height="298" as="geometry" />
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-3" value="用户界面" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="778" y="71" width="79" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-4" value="数据处理模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="272" y="87" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-5" value="通信模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="288" y="210" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-6" value="数据库 (可选)" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="55" width="112" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-7" value="数据采集模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="272" y="373" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-8" value="控制模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="756" y="373" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-9" value="算法模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="514" y="373" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-10" value="日志模块 (可选)" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="286" y="471" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-11" value="上位机" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="137" width="109" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-12" value="下位机" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="345" width="109" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-13" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="575" y="217" as="geometry" />
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-14" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="817" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-15" value="数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.01;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="kFiSkx_bpgdUBtS2T4i4-11" target="kFiSkx_bpgdUBtS2T4i4-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="188" y="111" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-16" value="数据" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="kFiSkx_bpgdUBtS2T4i4-4" target="kFiSkx_bpgdUBtS2T4i4-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-17" value="控制指令" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.52;entryX=0.21;entryY=0;rounded=0;" edge="1" parent="1" source="kFiSkx_bpgdUBtS2T4i4-11" target="kFiSkx_bpgdUBtS2T4i4-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="188" y="164" />
+              <mxPoint x="247" y="164" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-18" value="数据" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.94;entryX=0;entryY=0.15;rounded=0;" edge="1" parent="1" source="kFiSkx_bpgdUBtS2T4i4-11" target="kFiSkx_bpgdUBtS2T4i4-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="188" y="206" />
+              <mxPoint x="247" y="206" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-19" value="数据" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.76;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="kFiSkx_bpgdUBtS2T4i4-12" target="kFiSkx_bpgdUBtS2T4i4-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="188" y="397" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-20" value="数据" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="kFiSkx_bpgdUBtS2T4i4-7" target="kFiSkx_bpgdUBtS2T4i4-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-21" value="控制信号" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="kFiSkx_bpgdUBtS2T4i4-9" target="kFiSkx_bpgdUBtS2T4i4-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-22" value="控制指令" style="curved=1;startArrow=none;endArrow=block;exitX=0.72;exitY=-0.01;entryX=0;entryY=0.75;rounded=0;" edge="1" parent="1" source="kFiSkx_bpgdUBtS2T4i4-12" target="kFiSkx_bpgdUBtS2T4i4-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="188" y="255" />
+              <mxPoint x="247" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-23" value="数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.85;exitY=-0.01;entryX=0.18;entryY=0.99;rounded=0;" edge="1" parent="1" source="kFiSkx_bpgdUBtS2T4i4-12" target="kFiSkx_bpgdUBtS2T4i4-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="188" y="298" />
+              <mxPoint x="247" y="298" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-24" value="" style="curved=1;startArrow=none;endArrow=none;exitX=1;exitY=0.31;entryX=Infinity;entryY=-Infinity;rounded=0;" edge="1" parent="1" source="kFiSkx_bpgdUBtS2T4i4-5" target="kFiSkx_bpgdUBtS2T4i4-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="471" y="217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-25" value="串口通信" style="curved=1;startArrow=none;endArrow=none;exitX=Infinity;exitY=-Infinity;entryX=Infinity;entryY=Infinity;rounded=0;" edge="1" parent="1" source="kFiSkx_bpgdUBtS2T4i4-13" target="kFiSkx_bpgdUBtS2T4i4-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="697" y="217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=Infinity;exitY=Infinity;entryX=1;entryY=0.95;rounded=0;" edge="1" parent="1" source="kFiSkx_bpgdUBtS2T4i4-14" target="kFiSkx_bpgdUBtS2T4i4-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="697" y="278" />
+              <mxPoint x="471" y="278" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFiSkx_bpgdUBtS2T4i4-27" value="日志" style="curved=1;startArrow=none;endArrow=block;exitX=0.65;exitY=0.98;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="kFiSkx_bpgdUBtS2T4i4-12" target="kFiSkx_bpgdUBtS2T4i4-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="188" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
